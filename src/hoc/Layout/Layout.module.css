@@ -1,0 +1,18 @@
+.Main {
+	background-color: rgb(250, 250, 250);
+	flex-grow: 1;
+}
+
+
+@media (min-width: 600px) {
+	.Content {
+		padding: 60px 5px 0;
+		width: calc(100% - 10px);
+	}
+}
+.Content {
+	margin: 0 auto 30px;
+	flex-grow: 1;
+	max-width: 1035px;
+	
+}

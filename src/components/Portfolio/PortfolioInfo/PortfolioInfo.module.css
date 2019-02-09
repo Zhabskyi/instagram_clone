@@ -1,0 +1,62 @@
+section {
+	flex: 2 1 30px;
+}
+
+.ProfileInfo {
+	display: flex;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+.ProfileInfo > h1 {
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 32px;
+	margin: -5px 0 -6px;
+}
+
+.ProfileInfo > button {
+	margin-left: 20px;
+	background-color: transparent;
+	border: 1px solid #dbdbdb;
+	color: #262626;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	font-weight: 600;
+	padding: 5px 9px;
+	text-align: center;
+	text-transform: inherit;
+	text-overflow: ellipsis;
+}
+
+ul {
+	margin-bottom: 20px;
+	display: flex;
+	list-style: none;
+	padding-left: 0px;
+}
+
+li {
+	font-size: 16px;
+	margin-right: 40px;
+}
+
+li :first-child > span {
+	color: #262626;
+	font-weight: 600;
+}
+
+.Name {
+	font-size: 16px;
+	line-height: 24px;
+	word-wrap: break-word;
+}
+
+.Name > h1 {
+	display: inline;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	word-wrap: break-word;
+}

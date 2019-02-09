@@ -1,0 +1,24 @@
+.PortfolioPicture{
+	flex: 1 0 0;
+	margin-right: 30px;
+}
+
+.PortfolioPicture :first-child {
+	height: 150px;
+	width:150px;
+	display: block;
+	margin: 0 auto;
+}
+
+.PortfolioPicture :first-child > div {
+    background-color: #fafafa;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+    height: 100%;
+    width: 100%
+}

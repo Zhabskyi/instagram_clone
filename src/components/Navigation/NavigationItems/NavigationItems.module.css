@@ -1,0 +1,16 @@
+
+.NavigationItems {
+	margin: 0;
+	padding-left: 24px;
+	list-style: none;
+	display: flex;
+	align-items: stretch;
+	flex-shrink: 0;
+	height: 100%;
+}
+
+.NavigationItems:first-child{
+	padding-left: 0;
+}
+
+

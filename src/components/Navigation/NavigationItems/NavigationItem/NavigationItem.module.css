@@ -1,0 +1,10 @@
+.NavigationItem{
+	position: relative;
+	margin-left: 25px;
+	height: 24px;
+	width: 24px;
+}
+
+.NavigationItem a {
+	height: 100%;
+}

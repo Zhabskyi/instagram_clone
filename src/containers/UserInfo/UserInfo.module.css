@@ -1,0 +1,5 @@
+.UserInfo {
+	margin-bottom: 44px;
+	display: flex;
+	flex-direction: row;
+}

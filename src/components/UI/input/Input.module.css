@@ -1,0 +1,24 @@
+.Input {
+		font-size: 16px;
+		flex-direction: column;
+		position: relative;
+}
+
+.NativeInput {
+	width:100%;
+	font-size: 16px;
+	outline: none;
+	padding: 3px 10px 3px 26px;
+	border: 1px solid rgb(219, 219, 219);
+	border-radius: 3px;
+}
+
+.Invalid {
+    background: red;
+}
+
+/* .Label {
+	display: block;
+	padding: 5px;
+	width: 100%;
+} */
